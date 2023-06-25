@@ -23,13 +23,13 @@ export const FooterPage = () => {
             Данное руководство создано исключительно для личного пользования
             </div>
             <div className={'footer__second_vk'}>
-            ВКонтакте
+            <Link to={'https://vk.com/id209147074'}>ВКонтакте</Link>
             </div>
             <div className={'footer__second_tg'}>
-            Телеграм
+            <Link to={'https://t.me/+uelvWab4p-o1MWNi'}>Телеграм</Link>
             </div>
             <div className={'footer__second_git'}>
-            github | @2023
+            <Link to={'https://github.com/Scorih/PRW2_SIA'}>Github</Link> | @2023
             </div>
         </div>
     </div>

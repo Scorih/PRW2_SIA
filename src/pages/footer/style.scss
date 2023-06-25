@@ -40,6 +40,21 @@
         margin-right: 0.5%;
         margin-bottom: 0.5%;
 
+        a {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 22px;
+            color: white;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        a:hover {
+            font-weight: 600;
+            opacity: 0.8;
+        }
+
     }
 
     &__first{
@@ -50,13 +65,11 @@
 
     &__second_vk{
         flex: 1;
-        text-align: left;
 
     }
 
     &__second_tg{
         flex: 1;
-        text-align: left;
 
     }
 
