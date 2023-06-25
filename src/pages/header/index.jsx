@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 export const HeaderPage = () => {
     return <div className={"header"}>
         <div className={'header__logo'}>
-            <img src={'/assets/logo.svg'} />
+            <img src={'/assets/logo.svg'} alt="logo" />
         </div>
         <div className={'header__menu'}>
             <div><Link to={'/home_page'}>Главная</Link></div>
