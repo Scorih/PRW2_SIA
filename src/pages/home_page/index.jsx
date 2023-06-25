@@ -1,10 +1,9 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import './style.scss'
 
 const HomePage = () => {
-    return <div>
-        <span style={{marginRight:20}}>home</span>
-        <Link to={'/about_us'}>О руководстве</Link>
+    return <div className={'home_page'}>
+        
     </div>
 }
 

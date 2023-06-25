@@ -1,0 +1,20 @@
+.header {
+    background-color: black;
+    display: flex;
+
+    &__menu{
+        flex: 3;
+        display: flex;
+        left: 50%;
+        
+        >div{
+        flex: 1;
+        }
+    }
+
+    &__logo{
+        flex: 1;
+
+    }
+    
+}
