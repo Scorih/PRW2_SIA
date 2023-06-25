@@ -8,12 +8,12 @@ export const HeaderPage = () => {
             <img src={'/assets/logo.svg'} />
         </div>
         <div className={'header__menu'}>
-            <div><Link to={'/about_us'}>Главная</Link></div>
-            <div><Link to={'/about_us'}>Свет</Link></div>
-            <div><Link to={'/about_us'}>Геометрия</Link></div>
-            <div><Link to={'/about_us'}>Прочие сущности</Link></div>
-            <div><Link to={'/about_us'}>Оптимизация</Link></div>
-            <div><Link to={'/about_us'}>О пуководстве</Link></div>
+            <div><Link to={'/home_page'}>Главная</Link></div>
+            <div><Link to={'/light'}>Свет</Link></div>
+            <div><Link to={'/geometry'}>Геометрия</Link></div>
+            <div><Link to={'/other_entities'}>Прочие сущности</Link></div>
+            <div><Link to={'/optimization'}>Оптимизация</Link></div>
+            <div><Link to={'/about_us'}>О руководстве</Link></div>
         </div>
     </div>
 }

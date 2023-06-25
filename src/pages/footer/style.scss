@@ -1,0 +1,68 @@
+.footer {
+    background-color: black;
+    display: flex;
+    color: white;
+
+    &__main{
+        flex: 1;
+        text-align: left;
+        margin-top: 0.5%;
+        margin-left: 0.5%;
+        margin-bottom: 0.5%;
+
+    }
+
+    &__head{
+        flex: 1;
+        color: grey;
+
+    }
+
+    &__contact_discord{
+        flex: 1;
+
+    }
+
+    &__contact_phone{
+        flex: 1;
+
+    }
+
+    &__contact_mail{
+        flex: 1;
+
+    }
+
+    &__desc{
+        flex: 1;
+        text-align: right;
+        margin-top: 0.5%;
+        margin-right: 0.5%;
+        margin-bottom: 0.5%;
+
+    }
+
+    &__first{
+        flex: 1;
+        color: grey;
+
+    }
+
+    &__second_vk{
+        flex: 1;
+        text-align: left;
+
+    }
+
+    &__second_tg{
+        flex: 1;
+        text-align: left;
+
+    }
+
+    &__second_git{
+        flex: 1;
+
+    }
+    
+}

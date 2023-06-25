@@ -6,9 +6,21 @@
         flex: 3;
         display: flex;
         left: 50%;
-        
+
         >div{
         flex: 1;
+        text-align: center;
+        margin-top: 40px;
+        a {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 22px;
+            color: white;
+            text-decoration: none;
+            transition: 0.3;
+        }
         }
     }
 
