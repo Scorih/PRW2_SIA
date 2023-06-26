@@ -4,6 +4,7 @@ import AboutUsPage from './pages/about_us';
 import HomePage from './pages/home_page';
 import { HeaderPage } from './pages/header';
 import { FooterPage } from './pages/footer';
+import LightPage from './pages/light';
 
 function App() {
   return (
@@ -12,8 +13,12 @@ function App() {
       <HeaderPage />
       <Routes>
         <Route path={'/'} element={''} />
-        <Route path={'/about_us'} element={<AboutUsPage/>} />
         <Route path={'/home_page'} element={<HomePage/>} />
+        <Route path={'/light'} element={<LightPage/>} />
+        <Route path={'/geometry'} element={<GeometryPage/>} />
+        <Route path={'/other_entities'} element={<HomePage/>} />
+        <Route path={'/optimization'} element={<HomePage/>} />
+        <Route path={'/about_us'} element={<AboutUsPage/>} />
       </Routes>
       <FooterPage />
       </BrowserRouter>

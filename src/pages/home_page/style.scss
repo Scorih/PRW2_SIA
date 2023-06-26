@@ -1,12 +1,12 @@
 .home_page {
     background-color: black;
     color: white;
-    border-bottom: solid 5px #703CA5;
+    border-bottom: solid 1px #703CA5;
     position: flex;
 
     .text-and-image1 {
         flex: 1;
-        border-bottom: solid 5px #703CA5;
+        border-bottom: solid 1px #703CA5;
     }
 
     h3 {
@@ -28,13 +28,16 @@
         margin-bottom: 66px;
     }
 
-    .popUpText {
-        flex: 1;
-        margin-top: 1%;
-        text-align: center;
-        width: 100+"%";
+    .blockOfPopularity {
+        border-bottom: solid 1px #703CA5;
+    }
+
+    .headOfBlock {
+        margin-top: 34px;
         color: #703CA5;
+        text-align: center;
         font-size: 28px;
+        margin-bottom: 2%;
     }
 
     .poptext {
@@ -48,48 +51,167 @@
     }
 
     .table {
-        width: 100%;
-        position: relative;
-        height: 2000px;
+        display: flex;
+        height: 1970px;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1240px;
+        margin-bottom: 125px;
 
-    }
+        >.firstLineTable {
+            border: solid 1px #703CA5;
+        }
 
-    .firstLineTable {
-        position: absolute;
-        line-height: 100px; /*Высота строки + верт. центрирования текста*/
-        background: dodgerblue;
-        color: white;
-        margin-top: 60px;
-        width: 310px; /*Фиксируем ширину блока*/
-        margin-right: 10px;
-        text-align: center; /*Центрируем текст по горизонтали*/
-    }
+        >.secondLineTable {
+            border: solid 1px #703CA5;
+        }
 
-    .secondLineTable {
-        left: 310px;
-        position: absolute;
-
-        background: black;
-        color: white;
-        margin-top: 60px;
-        width: 310px; /*Фиксируем ширину блока*/
-        margin-right: 10px;
-        text-align: center; /*Центрируем текст по горизонтали*/
-    }
-
-    .thirdLineTable {
-        left: 620px;
-        position: absolute;
-        background: dodgerblue;
-        color: white;
-        width: 620px; /*Фиксируем ширину блока*/
-        text-align: center; /*Центрируем текст по горизонтали*/
+        >.thirdLineTable {
+            border: solid 1px #703CA5;
+        }
     }
 
     .smallGrid {
         width: 310px;
         height: 100px;
-        font-size: 20px;
+        vertical-align: middle;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .medGrid {
+        width: 310px;
+        height: 100px;
+        vertical-align: middle;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .bigGrid {
+        width: 620px;
+        height: 100px;
+        vertical-align: middle;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .firstSmallGrid {
+        width: 310px;
+        height: 100px;
+        vertical-align: middle;
+        text-align: center;
+        font-size: 22px;
+        color: #703CA5;
+        margin-top: 39px;
+    }
+
+    .firstMedGrid {
+        width: 310px;
+        height: 100px;
+        vertical-align: middle;
+        text-align: center;
+        font-size: 22px;
+        color: #703CA5;
+        margin-top: 39px;
+    }
+
+    .firstBigGrid {
+        width: 620px;
+        height: 100px;
+        vertical-align: middle;
+        text-align: center;
+        font-size: 22px;
+        color: #703CA5;
+        margin-top: 39px;
+    }
+
+    .blockOfGames {
+        border-bottom: solid 1px #703CA5;
+    }
+
+    .gallery {
+        width: 1227px;
+        height: 2072px;
+        background-color: grey;
+        border: solid 1px #703CA5;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .img {
+        margin: 10px;
+    }
+
+    .blockOfGallery {
+        height: 2300px;
+        border-bottom: solid 1px #703CA5;
+    }
+
+    .tableBF {
+        display: flex;
+        height: 800px;
+        margin-top: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 800px;
+        margin-bottom: 125px;
+
+        >.firstLineTableBF {
+            border: solid 1px #703CA5;
+        }
+
+        >.secondLineTableBF {
+            border: solid 1px #703CA5;
+        }
+
+    }
+
+    .firstGridBF {
+        width: 400px;
+        height: 700px;
+        text-align: left;
+        font-size: 30px;
+        >ul {
+            margin-top: -30px;
+            >li {
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-bottom: 30px;
+                list-style-type: decimal;
+            }
+        }
+    }
+
+    .secondGridBF {
+        width: 400px;
+        height: 700px;
+        text-align: left;
+        font-size: 30px;
+        >ul {
+            margin-top: -30px;
+            >li {
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-bottom: 30px;
+                list-style-type: decimal;
+            }
+        }
+    }
+    
+    .firstGridTableBF {
+        width: 400px;
+        height: 100px;
+        text-align: center;
+        font-size: 22px;
+        color: #703CA5;
+        margin-top: 39px;
+
+    }
+
+    .blockOfBF {
+        margin-bottom: 0px;
     }
 
 }

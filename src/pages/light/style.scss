@@ -1,0 +1,209 @@
+.light {
+    background-color: black;
+    color: white;
+    position: flex;
+    border-bottom: solid 1px #703CA5;
+
+
+    .text-and-image1 {
+        flex: 1;
+        border-bottom: solid 1px #703CA5;
+    }
+
+    h3 {
+        flex: 1;
+        position: absolute;
+        left: 5%;
+        right: 5%;
+        top: 1080px;
+        width: 90%;
+        color: white;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Block1 {
+        display: flex;
+        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1400px;
+
+        .text {
+        margin: 20px;
+        margin-top: -20px;
+        width: 1200px;
+        height: 400px;
+        text-align: center;
+        vertical-align: middle;
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+        }
+
+        .pic {
+        margin: 20px;
+        width: 200px;
+        height: 400px;
+        text-align: center;
+        vertical-align: middle;
+        }
+    }
+
+    .Block2 {
+        display: flex;
+        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1400px;
+
+        .text {
+        margin: 20px;
+        margin-top: -20px;
+        width: 1140px;
+        height: 400px;
+        text-align: center;
+        vertical-align: middle;
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+        }
+
+        .pic {
+        margin: 20px;
+        width: 300px;
+        height: 400px;
+        text-align: center;
+        vertical-align: middle;
+        }
+    }
+
+    .Block3 {
+        display: flex;
+        height: 525px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1400px;
+
+        .text {
+        margin: 20px;
+        margin-top: -20px;
+        width: 777px;
+        height: 525px;
+        text-align: center;
+        vertical-align: middle;
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+        }
+
+        .pic {
+        margin: 20px;
+        width: 663px;
+        height: 525px;
+        text-align: center;
+        vertical-align: middle;
+        }
+    }
+
+    .Block4 {
+        display: flex;
+        height: 525px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1400px;
+
+        .text {
+        margin: 20px;
+        margin-top: -20px;
+        width: 777px;
+        height: 525px;
+        text-align: center;
+        vertical-align: middle;
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+        }
+
+        .pic {
+        margin: 20px;
+        width: 663px;
+        height: 525px;
+        text-align: center;
+        vertical-align: middle;
+        }
+    }
+
+    .Block5 {
+        display: flex;
+        height: 525px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1400px;
+
+        .text {
+        margin: 20px;
+        margin-top: -20px;
+        width: 777px;
+        height: 525px;
+        text-align: center;
+        vertical-align: middle;
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+        }
+
+        .pic {
+        margin: 20px;
+        width: 663px;
+        height: 525px;
+        text-align: center;
+        vertical-align: middle;
+        }
+    }
+
+    .Block6 {
+        height: 1034px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1440px;
+
+        .pic {
+        margin: 20px;
+        width: 1359px;
+        height: 960px;
+        text-align: center;
+        vertical-align: middle;
+        }
+    }
+
+    .Block7 {
+        display: flex;
+        height: 515px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1400px;
+
+        .text {
+        margin: 20px;
+        margin-top: -20px;
+        width: 777px;
+        height: 515px;
+        text-align: center;
+        vertical-align: middle;
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+        }
+
+        .pic {
+        margin: 20px;
+        width: 663px;
+        height: 515px;
+        text-align: center;
+        vertical-align: middle;
+        }
+    }
+
+}
+
