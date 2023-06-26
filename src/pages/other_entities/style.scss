@@ -1,4 +1,5 @@
-.geometry {
+.other_entities {
+
     background-color: black;
     color: white;
     position: flex;
@@ -15,7 +16,7 @@
         position: absolute;
         left: 5%;
         right: 5%;
-        top: 1080px;
+        top: 1050px;
         width: 90%;
         color: white;
         text-align: center;
@@ -24,44 +25,48 @@
 
     .Block1 {
         display: flex;
-        height: 401px;
+        margin: 20px;
+        height: 262px;
         margin-left: auto;
         margin-right: auto;
         width: 1440px;
 
         .text {
-        margin: 20px;
         width: 1140px;
-        height: 351px;
+        height: 262px;
         text-align: center;
         vertical-align: middle;
         display: flex;
         align-items: center;
         font-size: 22px;
+        margin-bottom: auto;
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
         }
 
         .pic {
-        margin: 20px;
         width: 300px;
-        height: 401px;
         text-align: center;
         vertical-align: middle;
         margin-left: auto;
         margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
         }
     }
 
     .Block2 {
+        margin: 20px;
         display: flex;
-        height: 347px;
+        height: 380px;
         margin-left: auto;
         margin-right: auto;
         width: 1440px;
 
         .text {
-        margin: 20px;
-        width: 1030px;
-        height: 207px;
+        width: 1140px;
+        height: 380px;
         text-align: center;
         vertical-align: middle;
         display: flex;
@@ -70,9 +75,7 @@
         }
 
         .pic {
-        margin: 20px;
-        width: 410px;
-        height: 347px;
+        width: 300px;
         text-align: center;
         vertical-align: middle;
         margin-left: auto;
@@ -83,16 +86,16 @@
     }
 
     .Block3 {
+        margin: 20px;
         display: flex;
-        height: 600px;
+        height: 262px;
         margin-left: auto;
         margin-right: auto;
         width: 1440px;
 
         .text {
-        margin: 20px;
-        width: 568px;
-        height: 450px;
+        width: 1039px;
+        height: 262px;
         text-align: center;
         vertical-align: middle;
         display: flex;
@@ -101,71 +104,15 @@
         }
 
         .pic {
-        margin: 20px;
-        width: 872px;
-        height: 600px;
+        width: 400px;
         text-align: center;
         vertical-align: middle;
+        align-items: center;
         margin-left: auto;
         margin-right: auto;
         margin-top: auto;
         margin-bottom: auto;
-        }
-    }
-
-    .Block4 {
-        height: 718px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 1440px;
-
-        .pic {
-        margin: 20px;
-        width: 1075px;
-        height: 673px;
-        text-align: center;
-        vertical-align: middle;
-        margin-left: auto;
-        margin-right: auto;
-        }
-    }
-
-    .Block5 {
-        height: 750px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 1440px;
-
-        .pic {
-        margin: 20px;
-        width: 1145px;
-        height: 650px;
-        text-align: center;
-        vertical-align: middle;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: auto;
-        margin-bottom: auto;
-        }
-    }
-    
-    .Block6 {
-        height: 300px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 1440px;
-
-        .text {
-        margin: 20px;
-        width: 1151px;
-        height: 237px;
-        text-align: center;
-        vertical-align: middle;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 22px;
         }
     }
 
 }
-

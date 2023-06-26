@@ -6,6 +6,7 @@ import { HeaderPage } from './pages/header';
 import { FooterPage } from './pages/footer';
 import LightPage from './pages/light';
 import GeometryPage from './pages/geometry';
+import OtherEntitiesPage from './pages/other_entities';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         <Route path={'/home_page'} element={<HomePage/>} />
         <Route path={'/light'} element={<LightPage/>} />
         <Route path={'/geometry'} element={<GeometryPage/>} />
-        <Route path={'/other_entities'} element={<HomePage/>} />
+        <Route path={'/other_entities'} element={<OtherEntitiesPage/>} />
         <Route path={'/optimization'} element={<HomePage/>} />
         <Route path={'/about_us'} element={<AboutUsPage/>} />
       </Routes>
