@@ -5,6 +5,7 @@ import HomePage from './pages/home_page';
 import { HeaderPage } from './pages/header';
 import { FooterPage } from './pages/footer';
 import LightPage from './pages/light';
+import GeometryPage from './pages/geometry';
 
 function App() {
   return (
