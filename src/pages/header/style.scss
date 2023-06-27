@@ -14,7 +14,6 @@
         margin-top: 40px;
 
         a {
-            font-family: 'Times New Roman', Times, serif;
             font-style: normal;
             font-weight: 400;
             font-size: 20px;
@@ -22,6 +21,7 @@
             color: white;
             text-decoration: none;
             transition: 0.3s;
+            font-family: 'Inter', sans-serif;
         }
         a:hover {
             font-weight: 600;
