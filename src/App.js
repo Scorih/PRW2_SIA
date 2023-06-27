@@ -1,6 +1,6 @@
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import AboutUsPage from './pages/about_us';
+import AboutPage from './pages/about_us';
 import HomePage from './pages/home_page';
 import { HeaderPage } from './pages/header';
 import { FooterPage } from './pages/footer';
@@ -21,7 +21,7 @@ function App() {
         <Route path={'/geometry'} element={<GeometryPage/>} />
         <Route path={'/other_entities'} element={<OtherEntitiesPage/>} />
         <Route path={'/optimization'} element={<OptimizationPage/>} />
-        <Route path={'/about_us'} element={<AboutUsPage/>} />
+        <Route path={'/about_us'} element={<AboutPage/>} />
       </Routes>
       <FooterPage />
       </BrowserRouter>
