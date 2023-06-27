@@ -1,0 +1,166 @@
+.optimization {
+
+    background-color: black;
+    color: white;
+    position: flex;
+    border-bottom: solid 1px #703CA5;
+    font-family: 'Inter', sans-serif;
+
+
+    .text-and-image1 {
+        flex: 1;
+        border-bottom: solid 1px #703CA5;
+    }
+
+    h3 {
+        flex: 1;
+        position: absolute;
+        left: 5%;
+        right: 5%;
+        top: 1050px;
+        width: 90%;
+        color: white;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Block1 {
+        display: flex;
+        margin: 20px;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1440px;
+
+        .text {
+        width: 430px;
+        height: 440px;
+        text-align: center;
+        vertical-align: middle;
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+        line-height: 35px;
+        margin-bottom: auto;
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
+        }
+
+        .pic {
+        width: 800px;
+        text-align: center;
+        vertical-align: middle;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        }
+    }
+
+    .Block2 {
+        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1440px;
+
+        .pic {
+        margin: 20px;
+        width: 1366px;
+        height: 343px;
+        text-align: center;
+        vertical-align: middle;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        }
+    }
+
+    .BlockText {
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1440px;
+
+        .text {
+        margin: 20px;
+        width: 1100px;
+        height: 200px;
+        text-align: center;
+        vertical-align: middle;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 22px;
+        line-height: 35px;
+        }
+    }
+
+    .Block3 {
+        display: flex;
+        margin: 20px;
+        height: 483px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1440px;
+
+        .text {
+        width: 700px;
+        height: 270px;
+        text-align: center;
+        vertical-align: middle;
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+        line-height: 35px;
+        margin-bottom: auto;
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
+        }
+
+        .pic {
+        width: 720px;
+        text-align: center;
+        vertical-align: middle;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        }
+    }
+
+    .Block4 {
+        display: flex;
+        margin: 20px;
+        height: 546px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1440px;
+
+        .text {
+        width: 700px;
+        height: 270px;
+        text-align: center;
+        vertical-align: middle;
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+        margin-bottom: auto;
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
+        }
+
+        .pic {
+        width: 720px;
+        text-align: center;
+        vertical-align: middle;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        }
+    }
+
+}
