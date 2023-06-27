@@ -1,0 +1,195 @@
+.other_entities {
+
+    background-color: black;
+    color: white;
+    position: flex;
+    border-bottom: solid 1px #703CA5;
+    font-family: 'Inter', sans-serif;
+
+
+    .text-and-image1 {
+        flex: 1;
+        border-bottom: solid 1px #703CA5;
+    }
+
+    h3 {
+        flex: 1;
+        position: absolute;
+        left: 5%;
+        right: 5%;
+        top: 1050px;
+        width: 90%;
+        color: white;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Block1 {
+        display: flex;
+        margin: 20px;
+        height: 262px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1440px;
+
+        .text {
+        width: 1140px;
+        height: 262px;
+        text-align: center;
+        vertical-align: middle;
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+        margin-bottom: auto;
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
+        }
+
+        .pic {
+        width: 300px;
+        text-align: center;
+        vertical-align: middle;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        }
+    }
+
+    .Block2 {
+        margin: 20px;
+        display: flex;
+        height: 380px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1440px;
+
+        .text {
+        width: 1140px;
+        height: 380px;
+        text-align: center;
+        vertical-align: middle;
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+        }
+
+        .pic {
+        width: 300px;
+        text-align: center;
+        vertical-align: middle;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        }
+    }
+
+    .Block3 {
+        margin: 20px;
+        display: flex;
+        height: 262px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1440px;
+
+        .text {
+        width: 1039px;
+        height: 262px;
+        text-align: center;
+        vertical-align: middle;
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+        }
+
+        .pic {
+        width: 400px;
+        text-align: center;
+        vertical-align: middle;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        }
+    }
+
+    .Block4 {
+        height: 680px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1440px;
+
+        .pic {
+        margin: 20px;
+        width: 1352px;
+        height: 575px;
+        text-align: center;
+        vertical-align: middle;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        }
+    }
+
+    .Block5 {
+        height: 680px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1440px;
+
+        .pic {
+        margin: 20px;
+        width: 1383px;
+        height: 589px;
+        text-align: center;
+        vertical-align: middle;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        }
+    }
+
+    .Block6 {
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1440px;
+
+        .pic {
+        margin: 20px;
+        width: 1279px;
+        height: 391px;
+        text-align: center;
+        vertical-align: middle;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        }
+    }
+    
+    .BlockText {
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1440px;
+
+        .text {
+        margin: 20px;
+        width: 1440px;
+        height: 200px;
+        text-align: center;
+        vertical-align: middle;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 22px;
+        line-height: 35px;
+        }
+    }
+
+}

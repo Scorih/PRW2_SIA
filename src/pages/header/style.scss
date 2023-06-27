@@ -1,0 +1,38 @@
+.header {
+    background-color: black;
+    display: flex;
+    border-bottom: solid 1px #703CA5;
+
+    &__menu{
+        flex: 3;
+        display: flex;
+        left: 50%;
+
+        >div{
+        flex: 1;
+        text-align: center;
+        margin-top: 40px;
+
+        a {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 22px;
+            color: white;
+            text-decoration: none;
+            transition: 0.3s;
+            font-family: 'Inter', sans-serif;
+        }
+        a:hover {
+            font-weight: 600;
+            opacity: 0.8;
+        }
+        }
+    }
+
+    &__logo{
+        flex: 1;
+
+    }
+    
+}
