@@ -3,7 +3,6 @@
     color: white;
     border-bottom: solid 1px #703CA5;
     position: flex;
-    font-family: 'Inter', sans-serif;
 
     .text-and-image1 {
         flex: 1;
@@ -37,7 +36,7 @@
         margin-top: 34px;
         color: #703CA5;
         text-align: center;
-        font-size: 28px;
+        font-size: 30px;
         margin-bottom: 34px;
     }
 
@@ -78,7 +77,9 @@
         height: 100px;
         vertical-align: middle;
         text-align: center;
-        font-size: 22px;
+        font-size: 20px;
+        margin-top: auto;
+        margin-bottom: auto;
     }
 
     .medGrid {
@@ -86,7 +87,9 @@
         height: 100px;
         vertical-align: middle;
         text-align: center;
-        font-size: 22px;
+        font-size: 20px;
+        margin-top: auto;
+        margin-bottom: auto;
     }
 
     .bigGrid {
@@ -95,6 +98,8 @@
         vertical-align: middle;
         text-align: center;
         font-size: 18px;
+        margin-top: auto;
+        margin-bottom: auto;
     }
 
     .firstSmallGrid {
