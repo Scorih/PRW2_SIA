@@ -30,7 +30,7 @@ const LightPage = () => {
             <div className='text'>Чтобы добавить сам источник света, из которого будет идти свет, можно создать сущность prop_static - статичный предмет, который нельзя будет перемещать. Здесь внешний выбор объекта происходит в настройке World Model. Во внутреннем окне можно будет найти по фильтру нужное. Skins - облики объекта, которые можно выбрать, зачастую это включенная или выключенная лампа, но можно найти и другие разновидности. В Info можно найти информацию о том, каким объектом может быть модель (статичной, динамичной, физичной).</div>
         </div>
         <div className='Block6'>
-            <div className='pic'><img src={'./assets/images/pic11.png'} width="1390" height="960" alt="pic11" /></div>
+            <div className='pic'><img src={'./assets/images/pic12.png'} width="1390" height="960" alt="pic12" /></div>
         </div>
         <div className='Block7'>
             <div className='text'>Так же можно улучшить внешний вид света добавлением “шлейфа” вокруг источника. Сущность называется env_sprite. Здесь ключевые настройки это: Render Mode, FX Amount, FX Color, Sprite Name, Scale.

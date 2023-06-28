@@ -17,7 +17,7 @@
         position: absolute;
         left: 5%;
         right: 5%;
-        top: 1050px;
+        top: 1080px;
         width: 90%;
         color: white;
         text-align: center;
@@ -26,7 +26,7 @@
 
     .Block1 {
         display: flex;
-        margin: 20px;
+        margin-top: 20px;
         height: 262px;
         margin-left: auto;
         margin-right: auto;
@@ -34,14 +34,13 @@
 
         .text {
         width: 1140px;
-        height: 262px;
+        height: 100%;
         text-align: center;
         vertical-align: middle;
         display: flex;
         align-items: center;
         font-size: 22px;
         margin-bottom: auto;
-        margin-top: auto;
         margin-left: auto;
         margin-right: auto;
         }
@@ -58,7 +57,6 @@
     }
 
     .Block2 {
-        margin: 20px;
         display: flex;
         height: 380px;
         margin-left: auto;
@@ -67,7 +65,7 @@
 
         .text {
         width: 1140px;
-        height: 380px;
+        height: 100%;
         text-align: center;
         vertical-align: middle;
         display: flex;
@@ -77,6 +75,7 @@
 
         .pic {
         width: 300px;
+        height: 100%;
         text-align: center;
         vertical-align: middle;
         margin-left: auto;
@@ -87,7 +86,6 @@
     }
 
     .Block3 {
-        margin: 20px;
         display: flex;
         height: 262px;
         margin-left: auto;
@@ -96,7 +94,7 @@
 
         .text {
         width: 1039px;
-        height: 262px;
+        height: 100%;
         text-align: center;
         vertical-align: middle;
         display: flex;
@@ -106,6 +104,7 @@
 
         .pic {
         width: 400px;
+        height: 100%;
         text-align: center;
         vertical-align: middle;
         align-items: center;
@@ -123,9 +122,8 @@
         width: 1440px;
 
         .pic {
-        margin: 20px;
         width: 1352px;
-        height: 575px;
+        height: 100%;
         text-align: center;
         vertical-align: middle;
         margin-left: auto;
@@ -142,9 +140,8 @@
         width: 1440px;
 
         .pic {
-        margin: 20px;
         width: 1383px;
-        height: 589px;
+        height: 100%;
         text-align: center;
         vertical-align: middle;
         margin-left: auto;
@@ -161,9 +158,8 @@
         width: 1440px;
 
         .pic {
-        margin: 20px;
         width: 1279px;
-        height: 391px;
+        height: 100%;
         text-align: center;
         vertical-align: middle;
         margin-left: auto;
@@ -180,9 +176,8 @@
         width: 1440px;
 
         .text {
-        margin: 20px;
-        width: 1440px;
-        height: 200px;
+        width: 100%;
+        height: 100%;
         text-align: center;
         vertical-align: middle;
         margin-left: auto;
@@ -190,6 +185,244 @@
         font-size: 22px;
         line-height: 35px;
         }
+
+    }
+
+    .BlockTextLast {
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1440px;
+
+        .text {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        vertical-align: middle;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 22px;
+        line-height: 35px;
+        }
+    }
+
+}
+
+@media (max-width: 850px) {
+    .other_entities {
+
+        h3 {
+            flex: 1;
+            position: absolute;
+            left: 5%;
+            right: 5%;
+            top: 46%;
+            width: 90%;
+            color: white;
+            text-align: center;
+            font-size: 22px;
+        }
+
+        .Block1 {
+            display: flex;
+            margin-top: 20px;
+            width: 100%;
+            height: 225px;
+            margin-left: auto;
+            margin-right: auto;
+    
+            .text {
+                width: 664px;
+                height: 100%;
+                text-align: center;
+                vertical-align: middle;
+                display: flex;
+                align-items: center;
+                font-size: 22px;
+                margin-bottom: auto;
+                margin-left: auto;
+                margin-right: auto;
+            }
+    
+            .pic {
+                width: 185px;
+                height: 100%;
+                text-align: center;
+                vertical-align: middle;
+                margin-left: auto;
+                margin-right: auto;
+                img {
+                    width: 152px;
+                    height: 189px;
+                }
+            }
+        }
+
+        .Block2 {
+            display: flex;
+            height: 380px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+    
+            .text {
+            width: 549px;
+            height: 100%;
+            text-align: center;
+            vertical-align: middle;
+            display: flex;
+            align-items: center;
+            font-size: 22px;
+            }
+    
+            .pic {
+            width: 300px;
+            height: 100%;
+            text-align: center;
+            vertical-align: middle;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            margin-bottom: auto;
+            }
+        }
+
+        .Block3 {
+            display: flex;
+            height: 145px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+    
+            .text {
+            width: 543px;
+            height: 100%;
+            text-align: center;
+            vertical-align: middle;
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+            }
+    
+            .pic {
+            width: 307px;
+            height: 100%;
+            text-align: center;
+            vertical-align: middle;
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            margin-bottom: auto;
+
+            img {
+                width: 294px;
+                height: 97px;
+            }
+            }
+        }
+
+        .Block4 {
+            height: 345px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+    
+            .pic {
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            vertical-align: middle;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            margin-bottom: auto;
+
+            img {
+                width: 778px;
+                height: 331px;
+            }
+            }
+        }
+
+        .BlockText {
+            height: 200px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+    
+            .text {
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            vertical-align: middle;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 22px;
+            }
+        }
+
+        .Block5 {
+            height: 364px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+    
+            .pic {
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            vertical-align: middle;
+            margin-left: auto;
+            margin-right: auto;
+
+            img {
+                width: 782px;
+                height: 333px;
+            }
+
+            }
+        }
+
+        .Block6 {
+            height: 279px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+    
+            .pic {
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            vertical-align: middle;
+            margin-left: auto;
+            margin-right: auto;
+
+            img {
+                width: 833px;
+                height: 255px;
+            }
+
+            }
+        }
+
+        .BlockTextLast {
+            height: 220px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+    
+            .text {
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            vertical-align: middle;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 22px;
+            }
+        }
+
     }
 
 }

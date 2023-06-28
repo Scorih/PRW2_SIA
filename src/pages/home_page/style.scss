@@ -180,6 +180,7 @@
         height: 700px;
         text-align: left;
         font-size: 30px;
+        line-height: 35px;
         >ul {
             margin-top: -30px;
             >li {
@@ -196,6 +197,7 @@
         height: 700px;
         text-align: left;
         font-size: 30px;
+        line-height: 35px;
         >ul {
             margin-top: -30px;
             >li {
@@ -225,8 +227,148 @@
 
 @media (max-width: 850px) {
     .home_page {
-    background-color: black;
+        
+        h3 {
+            flex: 1;
+            position: absolute;
+            left: 5%;
+            right: 5%;
+            top: 45%;
+            width: 90%;
+            color: white;
+            text-align: center;
+            font-size: 22px;
+            line-height: 35px;
+        }
+
+        .headOfBlock {
+            margin-top: 21px;
+            color: #703CA5;
+            text-align: center;
+            font-size: 28px;
+            margin-bottom: 21px;
+        }
+
+        .poptext {
+            flex: 1;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            font-size: 22px;
+            line-height: 40px;
+        }
+
+        .table {
+            display: flex;
+            height: 1902px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 800px;
+            margin-bottom: 178px;
     
+            >.firstLineTable {
+                flex: 1;
+                margin-bottom: -39px;
+                border: solid 1px #703CA5;
+            }
+    
+            >.secondLineTable {
+                flex: 1;
+                margin-bottom: -39px;
+                border: solid 1px #703CA5;
+            }
+    
+            >.thirdLineTable {
+                flex: 1;
+                margin-bottom: -39px;
+                border: solid 1px #703CA5;
+            }
+        }
+
+        .firstMedGrid {
+            width: 170px;
+            height: 100px;
+            vertical-align: middle;
+            text-align: center;
+            font-size: 22px;
+            color: #703CA5;
+            margin-top: 39px;
+        }
+
+        .medGrid {
+            width: 170px;
+            height: 100px;
+            vertical-align: middle;
+            text-align: center;
+            font-size: 22px;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
+        .firstSmallGrid {
+            width: 74px;
+            height: 100px;
+            vertical-align: middle;
+            text-align: center;
+            font-size: 18px;
+            line-height: 20px;
+            color: #703CA5;
+            margin-top: 24px;
+            margin-bottom: 16px;
+        }
+
+        .smallGrid {
+            width: 74px;
+            height: 100px;
+            vertical-align: middle;
+            text-align: center;
+            font-size: 22px;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
+        .firstBigGrid {
+            width: 556px;
+            height: 100px;
+            vertical-align: middle;
+            text-align: center;
+            font-size: 22px;
+            line-height: 40px;
+            color: #703CA5;
+            margin-top: 39px;
+        }
+
+        .bigGrid {
+            width: 556px;
+            height: 100px;
+            vertical-align: middle;
+            text-align: center;
+            font-size: 18px;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
+        .gallery {
+            width: 100%;
+            height: 1450px;
+            background-color: #2F2F2F;
+            border: solid 1px #703CA5;
+            margin-left: auto;
+            margin-right: auto;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+    
+        }
+
+        .blockOfGallery {
+            height: 1560px;
+            border-bottom: solid 1px #703CA5;
+        }
+
+
     }
 
 }

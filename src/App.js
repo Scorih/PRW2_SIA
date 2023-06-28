@@ -15,7 +15,6 @@ function App() {
       <BrowserRouter>
       <HeaderPage />
       <Routes>
-        <Route path={'/'} element={''} />
         <Route path={'/home_page'} element={<HomePage/>} />
         <Route path={'/light'} element={<LightPage/>} />
         <Route path={'/geometry'} element={<GeometryPage/>} />
